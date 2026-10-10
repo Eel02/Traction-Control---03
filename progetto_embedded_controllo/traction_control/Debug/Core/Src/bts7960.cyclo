@@ -1,0 +1,3 @@
+../Core/Src/bts7960.c:4:6:BTS7960_Init	4
+../Core/Src/bts7960.c:10:6:BTS7960_SetDutyCycle	11
+../Core/Src/bts7960.c:27:6:BTS7960_Stop	4

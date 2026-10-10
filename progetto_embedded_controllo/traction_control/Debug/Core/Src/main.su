@@ -1,0 +1,10 @@
+../Core/Src/main.c:183:5:main	8	static
+../Core/Src/main.c:296:6:SystemClock_Config	88	static
+../Core/Src/main.c:345:6:HAL_UART_RxCpltCallback	32	static
+../Core/Src/main.c:389:6:HAL_I2C_MemRxCpltCallback	40	static
+../Core/Src/main.c:414:6:CurrentSensing_Update	48	static
+../Core/Src/main.c:433:6:StateEstimation_Update	56	static,ignoring_inline_asm
+../Core/Src/main.c:472:6:TractionControl_Apply	72	static
+../Core/Src/main.c:526:6:System_Enter_SafeMode	8	static,ignoring_inline_asm
+../Core/Src/main.c:552:6:HAL_TIM_PeriodElapsedCallback	48	static
+../Core/Src/main.c:669:6:Error_Handler	4	static,ignoring_inline_asm

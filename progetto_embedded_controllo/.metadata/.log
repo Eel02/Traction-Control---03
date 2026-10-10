@@ -1,0 +1,160 @@
+!SESSION 2026-07-09 10:42:03.338 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\traction_control\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\traction_control\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-09 10:42:12.925
+!MESSAGE Log4j2 initialized with config file C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-09 10:42:18.264
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-09 10:42:29.397
+!MESSAGE Indexed 'traction_control' (32 sources, 131 headers) in 8.41 sec: 14,841 declarations; 83,582 references; 5 unresolved inclusions; 1,543 syntax errors; 1,972 unresolved names (2%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 10:42:32.913
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM3
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 10:42:32.916
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 10:42:32.917
+!MESSAGE port: COM3
+!SESSION 2026-07-09 11:53:15.392 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-09 11:53:23.849
+!MESSAGE Log4j2 initialized with config file C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-09 11:53:48.112
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 11:53:54.852
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM3
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 11:53:54.854
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 11:53:54.856
+!MESSAGE port: COM3
+!SESSION 2026-07-09 12:28:42.091 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\traction_control\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\traction_control\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-09 12:28:50.662
+!MESSAGE Log4j2 initialized with config file C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-07-09 12:29:03.243
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 0
+java.io.FileNotFoundException: C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\.metadata\.plugins\org.eclipse.cdt.core\traction_control.language.settings.xml (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.eclipse.cdt.internal.core.XmlUtil.getFileOutputStreamWorkaround(XmlUtil.java:347)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:321)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:292)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:522)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 4 2026-07-09 12:29:03.249
+!MESSAGE Error serializing language settings
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:522)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\.metadata\.plugins\org.eclipse.cdt.core\traction_control.language.settings.xml (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.eclipse.cdt.internal.core.XmlUtil.getFileOutputStreamWorkaround(XmlUtil.java:347)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:321)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:292)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	... 5 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2026-07-09 12:29:03.254
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 0
+java.io.FileNotFoundException: C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\.metadata\.plugins\org.eclipse.cdt.core\traction_control.language.settings.xml (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.eclipse.cdt.internal.core.XmlUtil.getFileOutputStreamWorkaround(XmlUtil.java:347)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:321)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:292)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsManager.serializeLanguageSettings(LanguageSettingsManager.java:358)
+	at org.eclipse.cdt.core.language.settings.providers.LanguageSettingsSerializableProvider.serializeLanguageSettings(LanguageSettingsSerializableProvider.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:522)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-09 12:29:09.026
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-09 12:29:13.888
+!MESSAGE Indexed 'traction_control' (35 sources, 136 headers) in 4.43 sec: 15,448 declarations; 87,612 references; 1 unresolved inclusions; 92 syntax errors; 248 unresolved names (0.24%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 12:29:16.667
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM3
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 12:29:16.670
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-09 12:29:16.672
+!MESSAGE port: COM3
+!SESSION 2026-07-16 08:55:02.633 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-16 08:55:12.653
+!MESSAGE Log4j2 initialized with config file C:\Users\soria\OneDrive - Politecnico di Bari\Desktop\progetto_embedded\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-16 08:55:22.601
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-16 08:55:29.103
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM3
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-16 08:55:29.104
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-16 08:55:29.106
+!MESSAGE port: COM3
